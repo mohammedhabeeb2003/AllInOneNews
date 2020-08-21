@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "995367844302",
+    "firebase_url": "https://allinonenews-8e69c.firebaseio.com",
+    "project_id": "allinonenews-8e69c",
+    "storage_bucket": "allinonenews-8e69c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995367844302:android:11ada23e861d2d3ce4139f",
+        "android_client_info": {
+          "package_name": "com.vpapps.allinonenewsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995367844302-g0mek3bcb5d1u4vm7961f4hob732a58i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmGu8BCvFf_N7DKRgDSieyLiUCTx6JfLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995367844302-g0mek3bcb5d1u4vm7961f4hob732a58i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

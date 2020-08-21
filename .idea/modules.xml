@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AllInOneNews.iml" filepath="$PROJECT_DIR$/AllInOneNews.iml" group="AllInOneNews" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AllInOneNews/app" />
+      <module fileurl="file://$PROJECT_DIR$/checkbox/checkbox.iml" filepath="$PROJECT_DIR$/checkbox/checkbox.iml" group="AllInOneNews/checkbox" />
+      <module fileurl="file://$PROJECT_DIR$/slider/slider.iml" filepath="$PROJECT_DIR$/slider/slider.iml" group="AllInOneNews/slider" />
+    </modules>
+  </component>
+</project>

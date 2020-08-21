@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="3dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true"
+    android:background="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:id="@+id/ll_cat"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_cat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="7dp"
+            android:src="@drawable/bg_cat"/>
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="7dp"
+            android:src="@color/black_90"/>
+
+        <TextView
+            android:id="@+id/tv_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

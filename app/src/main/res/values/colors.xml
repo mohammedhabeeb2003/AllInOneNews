@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1F88E4</color>
+    <color name="colorPrimaryDark">#1C7BCF</color>
+    <color name="colorAccent">#EB2467</color>
+
+    <color name="nav_icon">#929292</color>
+
+    <color name="bg">#F4F4F4</color>
+
+    <color name="sel_cat">#901C7BCF</color>
+
+    <color name="bg_news_list">#f6f6f6</color>
+    <color name="black_30">#30000000</color>
+    <color name="pink">#FF4081</color>
+    <color name="btn_login">#FF4081</color>
+    <color name="btn_skip">#48a62a</color>
+    <color name="whiteAA">#aaffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="white_tansp">#40ffffff</color>
+    <color name="black_tansp">#20000000</color>
+    <color name="black">#000000</color>
+    <color name="tab">#353535</color>
+    <color name="nav_hover">#20000000</color>
+    <color name="nav_selected">#efefef</color>
+    <color name="bg_cardview">#f6f6f6</color>
+    <color name="DFDEDE">#DFDEDE</color>
+    <color name="red">#ff0000</color>
+    <color name="blackcc">#cc000000</color>
+    <color name="black_90">#90000000</color>
+    <color name="black_50">#50000000</color>
+    <color name="textView_empty">#90000000</color>
+    <color name="white40">#40ffffff</color>
+    <color name="cat_unselected">#a8a8a8</color>
+
+    <integer-array name="pocket_bar_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+</resources>

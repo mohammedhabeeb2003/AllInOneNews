@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_latest"
+            android:icon="@drawable/latest"
+            android:title="@string/latest" />
+
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/video"
+            android:title="@string/video_news" />
+
+        <item
+            android:id="@+id/nav_cat"
+            android:icon="@drawable/cat"
+            android:title="@string/categories" />
+
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/fav_nav"
+            android:title="@string/favourite" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile" />
+
+    </group>
+
+
+    <item
+        android:id="@+id/nav_rate"
+        android:icon="@drawable/rate"
+        android:title="@string/rateapp" />
+
+    <item
+        android:id="@+id/nav_shareapp"
+        android:icon="@drawable/share"
+        android:title="@string/shareapp" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/settings"
+        android:title="@string/settings" />
+
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@drawable/login"
+        android:title="@string/login" />
+
+</menu>

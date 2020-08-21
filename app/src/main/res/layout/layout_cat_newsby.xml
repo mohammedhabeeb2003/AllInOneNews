@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_cat_newsBy"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingTop="10dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="10dp"
+    android:background="?attr/selectableItemBackground">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_cat_newsBy"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="10dp" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_cat_view_newsBy"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="10dp" />
+
+        <TextView
+            android:id="@+id/tv_cat_newsBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="Sports"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

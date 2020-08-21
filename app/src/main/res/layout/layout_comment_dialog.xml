@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll" />
+
+    <include
+        layout="@layout/layout_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll"
+        android:visibility="gone" />
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+        android:id="@+id/progressBar_comment"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        app:cpb_colors="@array/pocket_bar_colors"
+        app:cpb_max_sweep_angle="300"
+        app:cpb_min_sweep_angle="10"
+        app:cpb_rotation_speed="1.0"
+        app:cpb_stroke_width="4dp"
+        app:cpb_sweep_speed="1.0" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_cardview">
+
+        <EditText
+            android:id="@+id/editText_addcomment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_add_comment"
+            android:gravity="top"
+            android:hint="@string/write_comment"
+            android:maxLines="1"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:paddingRight="13dp"
+            android:paddingLeft="13dp"
+            android:textSize="14sp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center_vertical"
+            android:inputType="text"/>
+
+        <ImageView
+            android:id="@+id/imageView_postcomment"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/send"
+            android:padding="7dp"
+            android:layout_gravity="bottom"
+            android:background="?attr/selectableItemBackground"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
